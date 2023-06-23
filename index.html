@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Complete Website Design Using HTML and CSS</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section id="header">
+      <div class="container">
+        <img src="images/logo.png" class="logo" />
+        <div class="header-text">
+          <h1>The purpose is to<br />teach, bring learning to people.</h1>
+          <span class="square"></span>
+          <p>
+            There are many variations pf passages of Lorem Ipsum available, but
+            the majority have suffered alteration in some form, by injected
+            humour or randomised words which don't look even slightly
+            believable.
+          </p>
+          <button class="common-btn">Read more</button>
+          <div class="line">
+            <span class="line-1"></span><br />
+            <span class="line-2"></span><br />
+            <span class="line-3"></span><br />
+          </div>
+        </div>
+      </div>
+    </section>
+    <nav id="sideNav">
+      <ul>
+        <li><a href="#">HOME</a></li>
+        <li><a href="#">ABOUT US</a></li>
+        <li><a href="#">FEATURES</a></li>
+        <li><a href="#">COURSES</a></li>
+        <li><a href="#">OFFER</a></li>
+        <li><a href="#">CONTACT</a></li>
+      </ul>
+    </nav>
+    <img src="images/menu.png" id="menuBtn" />
+
+    <!--------Javascript----------->
+    <script>
+      var menuBtn = document.getElementById("menuBtn");
+      var sideNav = document.getElementById("sideNav");
+
+      sideNav.style.right = "-250px";
+      menuBtn.onclick = function () {
+        if (sideNav.style.right == "-250px") {
+          sideNav.style.right = "0";
+        } else {
+          sideNav.style.right = "-250px";
+        }
+      };
+    </script>
+  </body>
+  <footer></footer>
+</html>
