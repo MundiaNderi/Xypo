@@ -1,0 +1,5 @@
+package.json
+package-lock.json
+HikVision.js
+node_modules
+crypto-js
