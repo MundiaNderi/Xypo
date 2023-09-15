@@ -316,13 +316,13 @@ hr{
     flex-basis: 40%;
 }
 
-/*--- Social- icons--*/
+/*---Social-icons--*/
 .social-icons{
     width: 50px;
     position: fixed;
     top: 50%;
     left: 0;
-    transform: translate(-50%);
+    transform: translateY(-50%);
     z-index: 1;
 }
 
